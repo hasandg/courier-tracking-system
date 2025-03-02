@@ -351,6 +351,6 @@ If I had more time, I'd add:
 - CQRS pattern for better separation of concerns
 
 Some examples of those can be seen in my following repositories:
-https://github.com/hasandg/Spring_Boot_Cloud_Security
+https://github.com/hasandg/Spring_Boot_Cloud_Security  
 https://github.com/hasandg/Bank-Account-Project-with-CQRS-and-Event-Sourcing-Kafka
 
