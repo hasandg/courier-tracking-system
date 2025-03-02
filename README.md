@@ -81,6 +81,7 @@ Redis is used for two primary purposes:
 1. **Performance Optimization**:
    - The Distance Calculation Service caches total travel distances to avoid expensive recalculations
    - Cache entries expire after a configurable TTL (3600 seconds by default)
+   - Keys follow the pattern `courier-total-distance:{courierId}`
 
 2. **Store Entry Deduplication**:
    - The Store Service uses Redis to track recent store entries by couriers
