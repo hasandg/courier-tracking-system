@@ -27,6 +27,7 @@
     </properties>
 
     <modules>
+        <module>shared-objects</module>
         <module>courier_tracking_system_infra</module>
         <module>service-registry</module>
         <module>api-gateway</module>

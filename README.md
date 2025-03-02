@@ -46,7 +46,7 @@ The services communicate both through REST APIs (using Feign clients) and asynch
 
 ## Design Patterns I Used
 
-I implemented several design patterns to make the code more maintainable:
+Some of my implemented design patterns to make the code more maintainable:
 
 1. **Circuit Breaker Pattern**: Used Resilience4j to prevent cascading failures when services are down. This has saved me a lot of headaches during testing with intentionally failed services.
 
