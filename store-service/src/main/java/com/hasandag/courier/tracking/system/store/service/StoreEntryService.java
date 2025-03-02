@@ -75,7 +75,7 @@ public class StoreEntryService {
     }
 
     private String getStoreEntryRedisKey(String courierId, Long storeId) {
-        return "courier-entry:" + courierId + ":" + storeId;
+        return "store-entry:" + courierId + ":" + storeId;
     }
 
     public List<StoreEntry> getEntriesForCourier(String courierId) {
