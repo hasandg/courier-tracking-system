@@ -115,11 +115,9 @@ services:
 
       echo -e 'Deleting kafka topics'
       kafka-topics --bootstrap-server kafka-broker-1:9092 --topic courier-locations --delete --if-exists
-      kafka-topics --bootstrap-server kafka-broker-1:9092 --topic store-entries --delete --if-exists
 
       echo -e 'Creating kafka topics'
       kafka-topics --bootstrap-server kafka-broker-1:9092 --create --if-not-exists --topic courier-locations --replication-factor 3 --partitions 6
-      kafka-topics --bootstrap-server kafka-broker-1:9092 --create --if-not-exists --topic store-entries --replication-factor 3 --partitions 6
   
       echo -e 'Successfully created the following topics:'
       kafka-topics --bootstrap-server kafka-broker-1:9092 --list
