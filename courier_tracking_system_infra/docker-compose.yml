@@ -165,9 +165,12 @@ services:
   api-gateway:
     build: ../api-gateway
     ports:
-      - "8090:8080"
+      - "8090:8090"
     environment:
       - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://service-registry:8761/eureka/
+      - SPRING_CLOUD_CONFIG_URI=http://config-server:8888
+      - MANAGEMENT_ENDPOINTS_WEB_EXPOSURE_INCLUDE=*
+      - MANAGEMENT_ENDPOINT_HEALTH_SHOW_DETAILS=always
     depends_on:
       - service-registry
       - config-server
