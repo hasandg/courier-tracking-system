@@ -125,10 +125,10 @@ You'll need:
 
 # Clone the repo
 
-Version 1
+Version 1  
 git clone https://github.com/hasandg/courier-tracking-system.git
 
-Version 2 (Spring Security and reduced docker images addded)
+Version 2 (Spring Security and reduced docker images addded)  
 git clone https://github.com/hasandg/courier-tracking-system2
 
 #### Option 1: The Easy Way (Docker)
