@@ -352,10 +352,9 @@ If I had more time, I'd add:
 - Performance testing for high throughput scenarios
 - Distributed Tracing: Micrometer and Zipkin
 - Aggrogating Log files with ELK Stack
-- Spring Security for API Security
 - CQRS pattern for better separation of concerns
 
-Some examples of those can be seen in my following repositories:
-https://github.com/hasandg/Spring_Boot_Cloud_Security  
+Some examples of those can be seen in my following repositories:  
+https://github.com/hasandg/Spring_Boot_Cloud_Security   
 https://github.com/hasandg/Bank-Account-Project-with-CQRS-and-Event-Sourcing-Kafka
 
