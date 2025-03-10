@@ -223,11 +223,7 @@ Using Docker Desktop, you can stop the services by clicking on the stop button o
 1. Open the project in IDE
 2. Go to the respective service and run the main class
 
-
-```bash
-
 ## Stopping the Application
-
 ```bash
 docker compose down
 ```
