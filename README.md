@@ -113,12 +113,6 @@ For more information, see the [PostgreSQL earthdistance documentation](https://w
 
 ## Getting Started
 
-This is second version of the project. This project contains the following changes:
-- Added Simple Spring Security to Api Gateway
-- Docker image size reduction from around 580 Mb to 120 Mb 
-
-
-
 ### Prerequisites
 
 You'll need:
@@ -130,7 +124,7 @@ You'll need:
 ### Running the App
 
 # Clone the repo
-git clone https://github.com/hasandg/courier-tracking-system2.git
+git clone https://github.com/hasandg/courier-tracking-system.git
 
 
 #### Option 1: The Easy Way (Docker)
